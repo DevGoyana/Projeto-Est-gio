@@ -1,4 +1,4 @@
-# 📚 Portal Curricular - EEEP Maria Carmem Vieira Moreira
+# Portal Curricular - EEEP Maria Carmem Vieira Moreira
 
 Sistema web desenvolvido para auxiliar na organização acadêmica e logística escolar da EEEP Maria Carmem Vieira Moreira.
 
@@ -6,7 +6,7 @@ O projeto tem como objetivo apresentar os cursos técnicos da instituição, sua
 
 ---
 
-# 🚀 Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 - HTML5
 - CSS3
@@ -15,7 +15,7 @@ O projeto tem como objetivo apresentar os cursos técnicos da instituição, sua
 
 ---
 
-# 🎯 Funcionalidades
+# Funcionalidades
 
 ## Área Pública
 - Visualização dos cursos técnicos
@@ -31,7 +31,7 @@ O projeto tem como objetivo apresentar os cursos técnicos da instituição, sua
 
 ---
 
-# 🏫 Cursos Disponíveis
+# Cursos Disponíveis
 
 - Desenvolvimento de Sistemas
 - Química
@@ -41,7 +41,7 @@ O projeto tem como objetivo apresentar os cursos técnicos da instituição, sua
 
 ---
 
-# 📂 Estrutura do Projeto
+# Estrutura do Projeto
 
 ```bash
 Projeto/
@@ -61,7 +61,7 @@ Projeto/
 
 ---
 
-# 💻 Como Executar
+# Como Executar
 
 1. Clone o repositório:
 
@@ -75,13 +75,13 @@ git clone https://github.com/seuusuario/seurepositorio.git
 
 ---
 
-# 📌 Objetivo do Projeto
+# Objetivo do Projeto
 
 Este projeto foi desenvolvido com fins educacionais e práticos, buscando melhorar a organização das informações acadêmicas da escola e também aprimorar conhecimentos em desenvolvimento web.
 
 ---
 
-# 🔧 Melhorias Futuras
+# Melhorias Futuras
 
 - Sistema de login administrativo
 - Integração com banco de dados
@@ -93,6 +93,6 @@ Este projeto foi desenvolvido com fins educacionais e práticos, buscando melhor
 
 ---
 
-# 👨‍💻 Desenvolvedores
+# Desenvolvedores
 
 Projeto desenvolvido por Isaac Goyana Barreto,Vinicius Dias Ferreira,Pedro Victor Pereira Leal Souza,Matheus Iarlei Pereira Feitosa,Pedro Henrique Vieira dos Santos.
