@@ -8,17 +8,12 @@
 /* BODY */
 body{
 
-    font-family: Arial, sans-serif;
-
+    font-family: montserrat, sans-serif;
     max-width: 400px;
-
     margin: 50px auto;
-
     padding: 20px;
-
-    border: 1px solid #080707;
-
-    background: #92886f85;
+    background: #708A58;
+    color:  #FFB823;
 }
 
 /* TÍTULO */
@@ -26,13 +21,16 @@ h1{
 
     text-align: center;
 
-    color: #333;
+    color: #FFB823;
+    text-shadow: 1px 1px 2px #203A1F;
 
     margin-bottom: 20px;
 }
 
 /* LABELS */
 label{
+
+    text-shadow: 1px 1px 2px #203A1F;
 
     display: block;
 
@@ -52,12 +50,22 @@ label{
     border-radius: 5px;
 
     border: none;
+
+    outline: none;
+
 }
+#usuario:focus,
+#senha:focus{
+    outline: none;
+    box-shadow: 0 0 5px #2D4F2B;    
+
+}
+
 
 /* BOTÃO */
 button{
 
-    background-color: rgba(24, 15, 1, 0.626);
+    background-color: #D28F01;
 
     width: 100%;
 
@@ -76,6 +84,11 @@ button{
     font-weight: bold;
 
     cursor: pointer;
+
+    transition: transform 0.3s;
+}
+button:hover{
+    transform: scale(1.05);
 }
 
 /* MENSAGEM */
@@ -88,4 +101,12 @@ button{
     font-weight: bold;
 
     text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background: #FFF1CA;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 8px rgba(255, 237, 237, 0.1);
 }
