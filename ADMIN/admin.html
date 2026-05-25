@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Área de administrador</title>
+
+    <link rel="stylesheet"
+    href="CSS(ADMIN)/admin.css">
+
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>LOGIN ADMINISTRATIVO</h1>
+
+        <!-- INPUT USUÁRIO -->
+        <label for="usuario">
+            Usuário
+        </label>
+
+        <input
+        type="text"
+        id="usuario"
+        placeholder="Digite o usuário">
+
+        <!-- INPUT SENHA -->
+        <label for="senha">
+            Senha
+        </label>
+
+        <input
+        type="password"
+        id="senha"
+        placeholder="Digite a senha">
+
+        <!-- BOTÃO -->
+        <button onclick="cadastrarAdministrador()">
+
+            Cadastrar
+
+        </button>
+
+        <!-- MENSAGEM -->
+        <p id="mensagem"></p>
+
+    </main>
+
+    <script src="JS(ADMIN)/admin.js"></script>
+
+</body>
+</html>

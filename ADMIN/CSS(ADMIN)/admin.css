@@ -1,0 +1,91 @@
+ /* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+
+    font-family: Arial, sans-serif;
+
+    max-width: 400px;
+
+    margin: 50px auto;
+
+    padding: 20px;
+
+    border: 1px solid #080707;
+
+    background: #92886f85;
+}
+
+/* TÍTULO */
+h1{
+
+    text-align: center;
+
+    color: #333;
+
+    margin-bottom: 20px;
+}
+
+/* LABELS */
+label{
+
+    display: block;
+
+    margin: 10px 0 5px;
+
+    font-weight: bold;
+}
+
+/* INPUTS */
+#usuario,
+#senha{
+
+    width: 100%;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+    border: none;
+}
+
+/* BOTÃO */
+button{
+
+    background-color: rgba(24, 15, 1, 0.626);
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 15px;
+
+    border-radius: 10px;
+
+    border: none;
+
+    color: white;
+
+    font-size: 1.1em;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+/* MENSAGEM */
+#mensagem{
+
+    margin-top: 15px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    text-align: center;
+}

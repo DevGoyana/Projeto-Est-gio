@@ -41,7 +41,56 @@ ul li a:hover{
     margin-top: 50px;
 }
 .card{
-
+background-color: #0F172A;
+border: #1E293B solid 2px;
+border-radius: 10px;
+width: 300px;
+padding: 20px;
+box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+transition: 0.3s;
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+button{
+    background-color: #1E293B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #334155;
 }
 
+.card img{
+    width: 100px;
+    height: 100px;
 
+    object-fit: contain;
+
+    display: block;
+
+    margin: 0 auto 15px;
+}
+.card h3{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.card p{
+    text-align: center;
+    font-size: 14px;
+    color: #94A3B8;
+}
+.card ds{
+    text-align: center;
+    font-size: 14px;
+    color: #94A3B8;
+}
+.card button{
+    display: block;
+    margin: 20px auto 0;
+}
