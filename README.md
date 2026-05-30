@@ -81,18 +81,6 @@ Este projeto foi desenvolvido com fins educacionais e práticos, buscando melhor
 
 ---
 
-# Melhorias Futuras
-
-- Sistema de login administrativo
-- Integração com banco de dados
-- API para gerenciamento dos cursos
-- Sistema de pesquisa
-- Modo escuro/claro
-- Responsividade avançada
-- Deploy online
-
----
-
 # Desenvolvedores
 
 Projeto desenvolvido por:
