@@ -6,26 +6,26 @@
     <title>Projeto </title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
-<body>
-  <body class="fade-in"></body>
+  <body class="fade-in">
     <header id="home">
         <div class="logo">
             <h1>Portal Curricular</h1>
         </div>
       
-        <nav class="navbar">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+   <nav class="navbar">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+
+        <span class="indicator"></span>
+    </ul>
+</nav>
+
           <button class="btn-admin" onclick="abrirLogin()">
                   Cadastro
            </button>
-             <button class="btn-login" onclick="abrirLogin()">
-                  Login
-           </button>
+             
     </header>
     <section class="intro">
       <div class="intro-txt">
@@ -38,7 +38,7 @@
       <button class="btn-explore">Explorar cursos</button>
        </div>
        <div class="intro-img">
-        <img src= "/IMG/eeepimg.jpg" alt="Imagem ilustrativa da escola" class = "img-intro">
+       <img src= "IMG/livros.png" alt="Livros" class = "img-intro">
        </div>
     
     </section>
@@ -51,15 +51,14 @@
 
       <!-- CARD ADS -->
       <article class="card">
-        <img src="/IMG/Simbol DS.png" alt="Símbolo do curso de Desenvolvimento de Sistemas">
         <h3>Desenvolvimento de Sistemas</h3>
-
+        <img src="/IMG/" alt="Símbolo do curso de Desenvolvimento de Sistemas">
         <p>
           Formação voltada para programação,
           banco de dados e desenvolvimento web.
         </p>
 
-        <button>Ver Grade Curricular</button>
+        <button>Ver curso</button>
       </article>
 
       <!-- CARD QUÍMICA -->
@@ -72,64 +71,49 @@
           e processos químicos.
         </p>
 
-        <button>Ver Grade Curricular</button>
+        <button>Ver curso</button>
       </article>
 
       <!-- CARD LOGÍSTICA -->
       <article class="card">
         <h3>Logística</h3>
-        <img src="/IMG/Simbol log.png" alt="Símbolo do curso de Logística">
+        <img src="IMG/" alt="Símbolo do curso de Logística">
 
         <p>
           Gestão de estoque, transporte
           e cadeia de suprimentos.
         </p>
 
-        <button>Ver Grade Curricular</button>
+        <button>Ver curso</button>
       </article>
 
      <!-- CARD TÊXTIL -->
       <article class="card">
         <h3>Têxtil</h3>
-        <img src="/IMG/Simbol text-Photoroom.png" alt="Símbolo do curso de Têxtil">
+        <img src="IMG/" alt="Símbolo do curso de Têxtil">
 
         <p>
           Produção têxtil, fibras,
           tecidos e inovação industrial.
         </p>
 
-        <button>Ver Grade Curricular</button>
+        <button>Ver curso</button>
       </article>
      <!-- CARD SECRETARIADO -->
       <article class="card">
         <h3>Secretariado</h3>
-        <img src="/IMG/Simbol sec.png" alt="Símbolo do curso de Secretariado">
+        <img src="IMG/Simbol sec.png" alt="Símbolo do curso de Secretariado">
 
         <p>
           Atendimento ao público, organização de documentos,
           e suporte administrativo.
         </p>
 
-        <button>Ver Grade Curricular</button>
+        <button>Ver curso</button>
       </article>
     </div>
 
   </section>
-  <section id="contato" class="contato">
-
-    <h2>Contato</h2>
-
-    <p>
-      Para dúvidas ou mais informações, entre em contato conosco:
-    </p>
-
-    <ul>
-      <li>Email: </li>
-      <li>Telefone: </li>
-      <li>Endereço: </li>
-    </ul>
-  </section>
-
   <!-- SOBRE -->
   <section id="sobre" class="sobre">
 
@@ -143,14 +127,52 @@
     </p>
 
   </section>
+  <section id="contato" class="contato">
 
+    <h2>Contato</h2>
+
+    <p>
+      Para dúvidas ou mais informações, entre em contato conosco:
+    </p>
+
+    <ul>
+      <li>Telefone:(85) 3215-2115 </li>
+      <li>Endereço:R. Maria Ferreira, 150 - Pajuçara, Maracanaú - CE, 61932-450 </li>
+    </ul>
+  </section>
+
+  
+<section class="beneficios">
+
+  <div>
+    <h3>Educação de Qualidade</h3>
+    <p>Professores experientes e metodologia eficiente.</p>
+  </div>
+
+  <div>
+    <h3>Estrutura Completa</h3>
+    <p>Laboratórios modernos para o aprendizado.</p>
+  </div>
+
+  <div>
+    <h3>Mercado de Trabalho</h3>
+    <p>Cursos alinhados às demandas atuais.</p>
+  </div>
+
+</section>
   <!-- FOOTER -->
   <footer class="footer">
 
     <p>
       © 2026 - Quinteto Fantástico. Todos os direitos reservados.
+      <br>
       Desenvolvido por:<br>
-      Vinicius Dias Ferreira, Matheus Iarlei Pereira Feitosa, Isaac Goyana Barreto, Pedro Henrique Vieira , Pedro Victor Leal.
+      <img src="IMG/github-logo.png" alt="Logo do GitHub" id="github-logo"> 
+      <a href="https://github.com/DevGoyana" target="_blank" class="github-link"> @DevGoyana</a>,
+      <a href="https://github.com/vnzzq" target="_blank" class="github-link">@ViniciusDias</a>,
+      <a href="https://github.com/matheus0iarlei-git" target="_blank" class="github-link">@MatheusIarlei</a>,
+      <a href="https://github.com/VieiraHat" target="_blank" class="github-link">@VieiraHat</a>,
+      <a href="https://github.com/pdzinxx" target="_blank" class="github-link">@PedroLeal</a>.
     </p>
 
   </footer>
